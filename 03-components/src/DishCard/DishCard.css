@@ -1,0 +1,15 @@
+.dish-card {
+  display: flex; /* Utilizamos flexbox para organizar los elementos */
+  flex-direction: column; /* Los elementos se colocarán en columnas */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.788);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.dish-card img {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
